@@ -11,6 +11,6 @@ namespace WebApplication2.Models
         // creates a DbSet<Movie> property for the entity set
         // an entity set typically corresponds to a database table and
         // an entity corresponds to a row in the table
-        DbSet<Movie> Movies { get; set; }
+        public DbSet<Movie> Movies { get; set; }
     }
 }
